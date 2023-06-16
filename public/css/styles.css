@@ -1,0 +1,185 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal form {
+    margin-top: 10px;
+}
+
+.modal form div {
+    margin-bottom: 10px;
+}
+
+.modal form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.modal form input[type="text"],
+.modal form textarea,
+.modal form select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.modal form button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.modal form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+.fixed-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.task-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+
+}
+
+.task-block {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    margin: 10px;
+    width: 50%;
+}
+
+.dark\:bg-gray-800 {
+    background-color: #333;
+}
+
+.task-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-info p {
+    margin: 5px 0;
+}
+.dark-bg {
+    background-color: #333;
+    color: #fff;
+}
+.label {
+    color: black;
+}
+.form-group {
+    margin-bottom: 10px; /* Отступ снизу для создания промежутка между label и input */
+}
+
+.form-group label {
+    display: inline-block; /* Размещаем label в строку */
+    width: 100px; /* Ширина label */
+    color: #fff;
+}
+
+.form-group input {
+
+    display: inline-block; /* Размещаем input в строку */
+    width: 60%;
+    color: #000; /* Черный цвет текста внутри input */
+}
+.form-group select {
+    width: 60%;
+    color: #000; /* Черный цвет текста внутри select */
+}.form-group textarea {
+     width: 60%;
+     color: #000; /* Черный цвет текста внутри textarea */
+ }.details-container {
+      color: white;
+  }
+
+.details-container summary {
+    background-color: transparent;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.details-container details {
+    margin-left: 10px;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.task-block {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.task-block p {
+    margin-bottom: 5px;
+}
+
+.task-info {
+    margin-top: 10px;
+}
+label {
+    color: black !important;
+}
+.hidden {
+    display: none;
+}
